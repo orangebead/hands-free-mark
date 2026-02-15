@@ -15,7 +15,7 @@ opencv-python==4.13.0.90
 packaging==26.0
 pillow==12.1.0
 protobuf==3.20.3
-PyAutoGUI==0.9.54
+//PyAutoGUI==0.9.54
 pycparser==3.0
 PyGetWindow==0.0.9
 PyMsgBox==2.0.1
