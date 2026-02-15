@@ -8,6 +8,8 @@ __pycache__/
 *$py.class
 *.so
 
+pycam.py
+
 dist/
 build/
 *.egg-info/
