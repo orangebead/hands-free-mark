@@ -92,8 +92,6 @@ class ImageAnnotator:
     
     def run(self):
         cap = cv2.VideoCapture(0)
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
         
         print("\n" + "="*60)
         print("IMAGE ANNOTATION - Hand Gesture Control")
@@ -123,7 +121,6 @@ class ImageAnnotator:
                 continue
             
             frame = cv2.flip(frame, 1)
-            frame_height, frame_width, _ = frame.shape
             
             # Get image dimensions for scaling
             img_height, img_width = self.annotated_image.shape[:2]
